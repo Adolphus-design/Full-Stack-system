@@ -16,6 +16,7 @@ import { MessagesComponent } from './messages/messages.component';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { RegisterComponent } from './register/register.component';
+import { StorkComponent } from './stork/stork.component';
 
 
 
@@ -27,7 +28,8 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     UserDetailsComponent,
     MessagesComponent,
-    RegisterComponent
+    RegisterComponent,
+    StorkComponent
   ],
   imports: [
     BrowserModule,
