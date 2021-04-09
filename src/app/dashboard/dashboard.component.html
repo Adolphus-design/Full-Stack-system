@@ -1,0 +1,7 @@
+
+<h2>Top User</h2>
+<div class="user-menu">
+  <a *ngFor="let user of data"  routerLink="/detail/{{user.id}}">
+    {{user.name}}
+  </a>
+</div>

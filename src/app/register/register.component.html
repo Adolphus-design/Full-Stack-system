@@ -1,0 +1,22 @@
+
+<div>
+    <div>
+    <label id="new-user">User name: </label>
+    <input for="new-user" #name />
+  </div>
+  
+    <div>
+    <label id="new-user">User surname: </label>
+    <input for="new-user" #surname />
+  </div>
+  
+    <div>
+    <label id="new-user">User email: </label>
+    <input for="new-user" #email />
+  </div>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button math-button class="add-button" (click)="add(name.value
+    , surname.value, email.value)">
+      Register
+    </button>
+  </div>
